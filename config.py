@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 
 # Description: Configuration file for the app

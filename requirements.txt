@@ -1,0 +1,4 @@
+# Include all the dependencies
+# that are required for the project
+pandas
+requests
