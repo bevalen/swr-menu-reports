@@ -1,9 +1,10 @@
-# This file contains all four menus (Weeks one and two for both suppliers)
+import config
 
+# This file contains all four menus (Weeks one and two for both suppliers)
 from airtable_api import fetch_airtable_records
 
-base_id = "app2c7jb17XL6s7zU"
-table_name = "Menu%20Items"
+base_id = config.airtable_menu_base_id
+table_name = config.airtable_menu_table_name
 
 menu_items = fetch_airtable_records(base_id, table_name)
 # print("Here's your records!", menu_items)
