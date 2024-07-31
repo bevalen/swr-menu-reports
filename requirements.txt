@@ -2,3 +2,4 @@
 # that are required for the project
 pandas
 requests
+openpyxl
